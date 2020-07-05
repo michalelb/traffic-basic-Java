@@ -21,7 +21,7 @@ public class Traffic implements ActionListener, Runnable {
 	boolean running = false;
 	
 	public Traffic() {
-		frame.setSize(800, 600);
+		frame.setSize(1000, 600);
 		frame.setLayout(new BorderLayout());
 		frame.add(road, BorderLayout.CENTER);
 		
